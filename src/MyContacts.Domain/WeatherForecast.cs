@@ -1,4 +1,4 @@
-namespace MyContacts.Api;
+namespace MyContacts.Domain;
 
 public class WeatherForecast
 {
