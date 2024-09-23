@@ -6,4 +6,13 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="FluentValidation" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MyContacts.Domain\MyContacts.Domain.csproj" />
+    <ProjectReference Include="..\MyContacts.Infrastructure\MyContacts.Infrastructure.csproj" />
+  </ItemGroup>
+
 </Project>
